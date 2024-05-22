@@ -7,8 +7,74 @@ body {
 }
 
 header {
-  background-color: #ffe850;
-/*   color: white; */
+  background-color: #efe51c;
+  color: #ab7c1f;
   padding: 10px 0;
   text-align: center;
+}
+
+header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+
+article {
+  margin: 20px 0;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+  color: #3498db;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #2ecc71;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li::marker {
+  color: #ab7c1f;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  bottom: 0;
 }
